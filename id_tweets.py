@@ -1,7 +1,5 @@
 #!/usr/bin/env python
-import oauth2 as oauth
 import sys
-import time
 import random
 import os
 
