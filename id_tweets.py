@@ -6,7 +6,7 @@ import os
 bad_things = ["words to redact go here"]
 
 def check_tweets(words):
-    """using this shit to check for bad things I don't want to tweet to strangers lol"""
+    """using this to check for bad things I don't want to tweet to strangers """
     print words
     for a in bad_things:
         if words.find(a) != -1:
